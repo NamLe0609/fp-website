@@ -290,7 +290,7 @@ We read this as "Compare the elements on their first part". As an
 example, if we run
 
 ```
-Prelude> mergeSortWith (compare `on` fst`) [(7, "a"), (-1, "b"), (5, "d")]
+Prelude> mergeSortWith (compare `on` fst) [(7, "a"), (-1, "b"), (5, "d")]
 [(-1, "b"), (5, "d"), (7, "a")]
 ```
 
